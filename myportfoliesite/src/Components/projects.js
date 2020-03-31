@@ -66,11 +66,64 @@ class Projects extends Component{
             )
         }else if(this.state.activeTab===1){
             return(
-                <div><h1>This is Unity</h1></div>
+                <div className="projects-grid">
+                {/*Unity Project 1*/}
+                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/750/1*cRFhIBaXVYysx0aApKC2gg.jpeg) center / cover'}}>
+                    Unity Projects    
+                    </CardTitle> 
+                    <CardText>
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    <CardActions border>
+                        <Button colored>Github</Button>
+                        <Button colored>CodePen</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
+
+                 {/*Unity Project 2*/}
+                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/750/1*cRFhIBaXVYysx0aApKC2gg.jpeg) center / cover'}}>
+                    Unity Projects    
+                    </CardTitle> 
+                    <CardText>
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    <CardActions border>
+                        <Button colored>Github</Button>
+                        <Button colored>CodePen</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
+ 
+                </div>
             )
         }else if(this.state.activeTab===2){
             return(
-                <div><h1>This is Scala</h1></div>
+                <div className="projects-grid">
+                {/*Scala Project 1*/}
+                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'#fff', height:'176px', background:'url(https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2019/03/lagom.png?fit=500%2C293&ssl=1) center / cover'}}>
+                    Scala Projects    
+                    </CardTitle> 
+                    <CardText>
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    <CardActions border>
+                        <Button colored>Github</Button>
+                        <Button colored>CodePen</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
+
+                </div>
             )
         }
     }
