@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import profile from '../Assets/pro.png'
+import profile from '../Assets/profile.JPG'
 
 
 class Landing extends Component{
