@@ -34,7 +34,8 @@ class Projects extends Component{
                     React Projects    
                     </CardTitle> 
                     <CardText>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications
+                    </CardText>   
                     <CardActions border>
                         <Button colored>Github</Button>
                         <Button colored>CodePen</Button>
@@ -51,7 +52,8 @@ class Projects extends Component{
                     React Projects    
                     </CardTitle> 
                     <CardText>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications 
+                    </CardText>   
                     <CardActions border>
                         <Button colored>Github</Button>
                         <Button colored>CodePen</Button>
@@ -73,7 +75,8 @@ class Projects extends Component{
                     Unity Projects    
                     </CardTitle> 
                     <CardText>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    Unity is so much more than the world’s best real-time development platform – it’s also a robust ecosystem designed to enable your success. Join our dynamic community of creators so you can tap into what you need to achieve your vision.
+                    </CardText>   
                     <CardActions border>
                         <Button colored>Github</Button>
                         <Button colored>CodePen</Button>
@@ -90,7 +93,8 @@ class Projects extends Component{
                     Unity Projects    
                     </CardTitle> 
                     <CardText>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    Unity is so much more than the world’s best real-time development platform – it’s also a robust ecosystem designed to enable your success. Join our dynamic community of creators so you can tap into what you need to achieve your vision.
+                    </CardText>     
                     <CardActions border>
                         <Button colored>Github</Button>
                         <Button colored>CodePen</Button>
@@ -112,7 +116,8 @@ class Projects extends Component{
                     Scala Projects    
                     </CardTitle> 
                     <CardText>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    Lagom is an open source framework for building systems of Reactive microservices in Java or Scala. Lagom builds on Akka and Play, proven technologies that are in production in some of the most demanding applications today.
+                    </CardText>   
                     <CardActions border>
                         <Button colored>Github</Button>
                         <Button colored>CodePen</Button>
