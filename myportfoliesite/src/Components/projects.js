@@ -14,14 +14,15 @@ class Projects extends Component{
                 {/*React Project 1*/}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                    React Projects    
+                    My Portfolio    
                     </CardTitle> 
                     <CardText>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications                    </CardText>   
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications          
+                    </CardText>   
                     <CardActions border>
-                        <Button colored>Github</Button>
+                        <Button colored href='https://github.com/omerbulutt/MyPortfolio' target="_blank">Github</Button>
                         <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
+                        <Button colored href='https://omerbulutt.github.io/MyPortfolio/' target="_blank" >LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name="share"/>
@@ -31,7 +32,7 @@ class Projects extends Component{
                  {/*React Project 2*/}
                  <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                    React Projects    
+                    React Projects(Very Soon)    
                     </CardTitle> 
                     <CardText>
                     React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications
@@ -49,7 +50,7 @@ class Projects extends Component{
                  {/*React Project 3*/}
                  <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                    React Projects    
+                    React Projects(Very Soon)    
                     </CardTitle> 
                     <CardText>
                     React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications 
@@ -72,15 +73,13 @@ class Projects extends Component{
                 {/*Unity Project 1*/}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/750/1*cRFhIBaXVYysx0aApKC2gg.jpeg) center / cover'}}>
-                    Unity Projects    
+                     Somuncu   
                     </CardTitle> 
                     <CardText>
-                    Unity is so much more than the world’s best real-time development platform – it’s also a robust ecosystem designed to enable your success. Join our dynamic community of creators so you can tap into what you need to achieve your vision.
+                    2D Game Development (Unity,Visual Studio C#) 
                     </CardText>   
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
+                        <Button colored href='https://www.youtube.com/watch?v=7XJDlj8XOGM&t=93s' target="_blank">Youtube</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name="share"/>
@@ -90,15 +89,13 @@ class Projects extends Component{
                  {/*Unity Project 2*/}
                  <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff', height:'176px', background:'url(https://miro.medium.com/max/750/1*cRFhIBaXVYysx0aApKC2gg.jpeg) center / cover'}}>
-                    Unity Projects    
+                     3D Game   
                     </CardTitle> 
                     <CardText>
-                    Unity is so much more than the world’s best real-time development platform – it’s also a robust ecosystem designed to enable your success. Join our dynamic community of creators so you can tap into what you need to achieve your vision.
+                    3D Game Development (Unity,Visual Studio C#)
                     </CardText>     
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
+                    <Button colored href='https://www.youtube.com/watch?v=n4GPe0xCsy8&t=292s' target="_blank">Youtube</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name="share"/>
@@ -112,16 +109,15 @@ class Projects extends Component{
                 <div className="projects-grid">
                 {/*Scala Project 1*/}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'#fff', height:'176px', background:'url(https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2019/03/lagom.png?fit=500%2C293&ssl=1) center / cover'}}>
-                    Scala Projects    
+                    <CardTitle style={{color:'#6A6A6A', height:'176px', background:'url(https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2019/03/lagom.png?fit=500%2C293&ssl=1) center / cover'}}>
+                    DogGO    
                     </CardTitle> 
                     <CardText>
-                    Lagom is an open source framework for building systems of Reactive microservices in Java or Scala. Lagom builds on Akka and Play, proven technologies that are in production in some of the most demanding applications today.
+                    Scala Lagom Microservice Framework ile Event Driven ve CQRS prensiplerine uygun olarak backend kodları yazılan bir projedir.  Kafka mesajlaşma alt yapısı ve Cassandra db ile geliştirilmiştir. Mobil uygulama tarafında ise React Native tercih edilmiştir. Şu anda mobil marketlerde bulunan bu projenin backend kısmında(gerekli servis, repository,entity ve test yazımlarında) görev aldım. 
                     </CardText>   
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
+                        <Button colored href='https://apps.apple.com/us/app/doggo/id1321405113' target="_blank">App Store</Button>
+                        <Button colored href='https://play.google.com/store/apps/details?id=com.doggoapp.owner' target="_blank">Google Play</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name="share"/>

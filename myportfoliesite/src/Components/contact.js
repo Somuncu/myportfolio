@@ -11,10 +11,11 @@ class Contact extends Component{
                     <Cell col={6}>
                         <h2>Ömer BULUT</h2>
                         <img src={profile} alt="avatar" style={{height: '250px'}} />
-                        <p style={{width:'55%' , margin:'auto', paddingTop:'1em'}}> Ege Üniversitesi Bilgisayar Mühendisliği’nde kazandığım teorik eğitim altyapısını
-                            şirketinizde yapacağım staj sırasında kazanacağım pratik bilgilerle birleştirmeyi amaçlıyorum.
-                            Sürekli eğitime inanan, öğrenmeye açık ve çalışmayı seven biri olarak staj sırasında
-                            şirketinize değer katarken kendimi geliştirebileceğimi düşünüyorum.</p>
+                        <p style={{width:'55%' , margin:'auto', paddingTop:'1em'}}>
+                            Sürekli eğitime inanan, öğrenmeye açık ve çalışmayı seven biri olarak
+                            bulunduğum ortama değer katarken kendimi geliştirmeyi hedefliyorum. 
+                            İstekli, özenli ve dikkatli çalışmanın mutlaka başarı ile sonuçlanacağının bilincindeyim.
+                            </p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
