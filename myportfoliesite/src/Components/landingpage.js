@@ -28,12 +28,12 @@ class Landing extends Component{
                                 </a>
 
                                 {/*Github*/}   
-                                <a href="https://github.com/Somuncu" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/omerbulutt" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square"  aria-hidden="true"/>
                                 </a>
 
                                  {/*Youtube*/}   
-                                 <a href="https://www.youtube.com/feed/my_videos" rel="noopener noreferrer" target="_blank">
+                                 <a href="https://www.youtube.com/channel/UCxQT2ov-AxZzpW3nFNMRZ3g" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-youtube-square"  aria-hidden="true"/>
                                 </a>
 
