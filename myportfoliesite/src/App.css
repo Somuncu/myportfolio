@@ -17,36 +17,37 @@
 }
 
 .avatar-img{
-  height: 25%;
-  padding-top: 5em;
+  width: 30%;
+  height: auto;
+  padding-top: 3em;
 }
 
 .banner-text{
   background-color: black;
   opacity: .8;
-  width: 50%;
+  width: 55%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .banner-text h1{
-  font-size: 66px;
+  font-size: 300%;
   font-weight: bold;
   color: white;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .banner-text hr{
   border-top: 5px dotted white;
   width: 50%;
-  margin-left: 30%;
+  margin-left: 26%;
 }
 
 .banner-text p{
   color: white;
-  font-size: 20px;
+  font-size: 110%;
   padding: 1em;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .social-links{
@@ -68,11 +69,12 @@
 
 .contact-body{
   margin: auto;
+  height: auto;
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
+ 
 }
 
 .contact-grid{
@@ -87,22 +89,26 @@
 
 .contact-grid h2{
   font-family: 'Anton', sans-serif;
+  font-size: 200%;
 }
 
 .contact-grid p{
   font-family: 'Oxygen',sans-serif;
   font-weight: bold;
+  font-size: 140%;
 }
 
 .contact-grid hr{
   border-top: 5px dotted black;
   width: 50%;
+  height: auto;
   margin: auto;
+  font-size: 140%;
 }
 
 .contact-list i{
-  font-size: 50px;
-  padding-right: 7rem;
+  font-size: 200%;
+  padding-right: 2rem;
   padding-left: 8rem;
 }
 
@@ -132,5 +138,6 @@
   text-align: center;
   margin: auto;
 }
+
 
 

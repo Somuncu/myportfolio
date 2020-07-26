@@ -10,8 +10,8 @@ class Contact extends Component{
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Ömer BULUT</h2>
-                        <img src={profile} alt="avatar" style={{height: '250px'}} />
-                        <p style={{width:'55%' , margin:'auto', paddingTop:'1em'}}>
+                        <img src={profile} alt="avatar" style={{height: '20%'}} />
+                        <p style={{width:'90%' , margin:'auto', paddingTop:'1em'}}>
                             Sürekli eğitime inanan, öğrenmeye açık ve çalışmayı seven biri olarak
                             bulunduğum ortama değer katarken kendimi geliştirmeyi hedefliyorum. 
                             İstekli, özenli ve dikkatli çalışmanın mutlaka başarı ile sonuçlanacağının bilincindeyim.
@@ -24,25 +24,25 @@ class Contact extends Component{
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                                    <ListItemContent style={{fontSize:'140%', fontFamily:'Anton'}}>
                                         <i className="fa fa-phone-square" aria-hidden="true" />
                                         (+90)543-620-6074
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                                    <ListItemContent style={{fontSize:'140%', fontFamily:'Anton'}}>
                                         <i className="fa fa-fax" aria-hidden="true" />
                                         (+90)232-750-5050
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                                    <ListItemContent style={{fontSize:'140%', fontFamily:'Anton'}}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         omerbulutege@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                                    <ListItemContent style={{fontSize:'140%', fontFamily:'Anton'}}>
                                         <i className="fa fa-skype" aria-hidden="true" />
                                          omerbulutege@gmail.com
                                     </ListItemContent>
