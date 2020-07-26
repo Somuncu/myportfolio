@@ -31,7 +31,7 @@ class Resume extends Component{
                         file={resume}
                         onLoadSuccess={this.onDocumentLoadSuccess}
                     >
-                        <Page pageNumber={pageNumber} width={900} />
+                        <Page pageNumber={pageNumber} width={'700'} />
                     </Document>
                     <p>
                     Page {pageNumber} of {numPages}
