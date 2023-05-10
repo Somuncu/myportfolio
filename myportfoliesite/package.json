@@ -12,7 +12,7 @@
     "react-mdl": "^2.1.0",
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.4"
   },
   "scripts": {
     "predeploy": "npm run build",
